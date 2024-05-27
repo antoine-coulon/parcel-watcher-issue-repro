@@ -1,0 +1,15 @@
+{
+  "name": "parcel-watcher-repro",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "reproduce": "node watch-with-issue.js",
+    "work": "node watch-without-issue.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@parcel/watcher": "^2.4.1"
+  }
+}
